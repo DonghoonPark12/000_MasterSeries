@@ -7,3 +7,8 @@
 - https://scipy-lectures.org/advanced/advanced_numpy/
 - http://jalammar.github.io/visual-numpy/
 - https://www.labri.fr/perso/nrougier/from-python-to-numpy/
+
+### 002_Numpy-100_Practice
+[Reference] 
+- https://github.com/rougier/numpy-100
+
