@@ -12,3 +12,6 @@
 [Reference] 
 - https://github.com/rougier/numpy-100
 
+
+### 010_python
+
