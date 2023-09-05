@@ -1,5 +1,6 @@
 # 000_MasterSeries
-
+- 해당 페이지는 부족한 부분을 주제를 정해 마스터 할 수 있을 정도로 연습해서 코드를 올리는 공간
+- 다시 봐도 부족함이 없을 정도로 익힌 것을 채워 나간다.
 ### 001_Numpy
 [Reference] 
 - https://betterprogramming.pub/numpy-illustrated-the-visual-guide-to-numpy-3b1d4976de1d
@@ -15,3 +16,8 @@
 
 ### 010_python
 
+### 1xx - Computer Vision  
+  
+### 2xx - DeepLearning 
+  
+### 3xx - Machine Learning
