@@ -1,1 +1,4 @@
 *.pt
+*.mat
+*/data/*
+*workspace*
