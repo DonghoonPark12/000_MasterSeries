@@ -1,4 +1,3 @@
-*.pt
-*.mat
-*/data/*
-*workspace*
+*.pyc
+*.pyd
+*.log
