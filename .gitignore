@@ -1,3 +1,8 @@
 *.pyc
 *.pyd
+*.pt
+*.mat
+*/data/*
+*workspace*
+*.gz
 *.log
