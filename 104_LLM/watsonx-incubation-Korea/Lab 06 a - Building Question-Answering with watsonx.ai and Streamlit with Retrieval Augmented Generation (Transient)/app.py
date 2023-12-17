@@ -4,6 +4,9 @@ import pickle
 import tempfile
 import textwrap
 
+import streamlit as st
+from dotenv import load_dotenv
+
 try:
     from langchain import PromptTemplate
     from langchain.chains import RetrievalQAWithSourcesChain
@@ -11,17 +14,16 @@ try:
 except ImportError:
     raise ImportError("Could not import langchain: Please install ibm-generative-ai[langchain] extension.")
 
-import streamlit as st
-from dotenv import load_dotenv
-from ibm_watson_machine_learning.metanames import GenTextParamsMetaNames as GenParams
-from ibm_watson_machine_learning.foundation_models.utils.enums import ModelTypes
 from langchain.callbacks import StdOutCallbackHandler
 from langchain.chains.question_answering import load_qa_chain
 from langchain.document_loaders import PyPDFLoader
-from langchain.embeddings import (HuggingFaceHubEmbeddings,
-                                  HuggingFaceInstructEmbeddings)
+from langchain.embeddings import (HuggingFaceHubEmbeddings, HuggingFaceInstructEmbeddings)
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.vectorstores import FAISS, Chroma
+
+from ibm_watson_machine_learning.metanames import GenTextParamsMetaNames as GenParams
+from ibm_watson_machine_learning.foundation_models.utils.enums import ModelTypes
+
 from PIL import Image
 # from googletrans import Translator
 import requests
@@ -48,6 +50,7 @@ else:
         "apikey": api_key 
     }
 
+#----------------------------------------------------------------------------------------------------------#
 st.set_page_config(
     page_title="Retrieval Augmented Generation",
     page_icon="🧊",
@@ -81,6 +84,7 @@ with st.sidebar:
     # st.markdown('Powered by <span style="color: darkblue;">watsonx.ai</span>', unsafe_allow_html=True)
 
 st.markdown('<div style="text-align: right;">Powered by <span style="color: darkblue;">watsonx.ai</span></div>', unsafe_allow_html=True)
+#----------------------------------------------------------------------------------------------------------#
 
 decoding = "sample" if decoding_option == "Sample" else "greedy"
 
@@ -306,6 +310,7 @@ if docs:
 else:
     st.error("문서를 업로드하십시오.")
 
+#----------------------------------------------------------------------------------------------------------#
 st.markdown('<hr style="border: 1px solid #f0f2f6;">', unsafe_allow_html=True)
 
 # Store LLM generated responses
