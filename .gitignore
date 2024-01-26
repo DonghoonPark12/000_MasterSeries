@@ -7,3 +7,13 @@
 *.gz
 *.log
 *ubyte
+*/.env
+*/ops/*
+*/build/*
+*.pdf
+*.ppt
+*.pptx
+.env
+environmen.ipynb
+*/1_login.py
+*-manual-*

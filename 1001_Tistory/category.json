@@ -1,0 +1,83 @@
+{
+    "tistory": {
+        "status": "200",
+        "item": {
+            "url": "dhpark-codereview",
+            "secondaryUrl": "",
+            "categories": [
+                {
+                    "id": "922859",
+                    "name": "Mathmatics for ML",
+                    "parent": "",
+                    "label": "Mathmatics for ML",
+                    "entries": "2",
+                    "entriesInLogin": "5"
+                },
+                {
+                    "id": "923144",
+                    "name": "Multivariate Calculus",
+                    "parent": "",
+                    "label": "Multivariate Calculus",
+                    "entries": "0",
+                    "entriesInLogin": "1"
+                },
+                {
+                    "id": "919944",
+                    "name": "Computer Vision",
+                    "parent": "",
+                    "label": "Computer Vision",
+                    "entries": "3",
+                    "entriesInLogin": "10"
+                },
+                {
+                    "id": "919943",
+                    "name": "Lecture Review",
+                    "parent": "",
+                    "label": "Lecture Review",
+                    "entries": "1",
+                    "entriesInLogin": "1"
+                },
+                {
+                    "id": "919945",
+                    "name": "------------------------",
+                    "parent": "",
+                    "label": "------------------------",
+                    "entries": "0",
+                    "entriesInLogin": "0"
+                },
+                {
+                    "id": "919343",
+                    "name": "Code Insight",
+                    "parent": "",
+                    "label": "Code Insight",
+                    "entries": "0",
+                    "entriesInLogin": "2"
+                },
+                {
+                    "id": "919344",
+                    "name": "Code Review",
+                    "parent": "",
+                    "label": "Code Review",
+                    "entries": "1",
+                    "entriesInLogin": "2"
+                },
+                {
+                    "id": "920019",
+                    "name": "etc",
+                    "parent": "",
+                    "label": "etc",
+                    "entries": "0",
+                    "entriesInLogin": "0"
+                },
+                {
+                    "id": "933929",
+                    "name": "YOLOv5",
+                    "parent": "",
+                    "label": "YOLOv5",
+                    "entries": "3",
+                    "entriesInLogin": "5"
+                }
+            ]
+        }
+    }
+}
