@@ -17,3 +17,10 @@
 environmen.ipynb
 */1_login.py
 *-manual-*
+*.png
+*.csv
+*.tsv
+*.sqlite3
+104_LLM/watsonx-incubation-Korea/*
+*.zip
+numpy-100
