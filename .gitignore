@@ -17,7 +17,6 @@
 environmen.ipynb
 */1_login.py
 *-manual-*
-<<<<<<< HEAD
 *.png
 *.csv
 *.tsv
@@ -25,9 +24,11 @@ environmen.ipynb
 104_LLM/watsonx-incubation-Korea/*
 *.zip
 numpy-100
-=======
 */data/*
 *.jpeg
 *.jpg
 002_MachineLearning/sklean_lib/data/
->>>>>>> c8466e689ed75b6312593f5de4dce27dd5743d46
+105_OpenAI/processed
+105_OpenAI/text
+numpy-100
+front_end
