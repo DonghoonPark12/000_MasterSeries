@@ -32,3 +32,5 @@ numpy-100
 105_OpenAI/text
 numpy-100
 front_end
+node_modules
+*.pem
