@@ -34,3 +34,8 @@ numpy-100
 front_end
 node_modules
 *.pem
+104_LLM/Llama-2-70b-hf/
+104_LLM/Llama-2-7b-hf/
+104_LLM/samsum/
+104_OpenAI/text/openai.com
+frontend

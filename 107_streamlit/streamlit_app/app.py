@@ -103,6 +103,7 @@ if chatgpt_flag == True:
     #     generate_response_new(prompt, openai_api_key)
     
     # -------------------------------------------------------------------------------#
+    # https://docs.streamlit.io/knowledge-base/tutorials/llm-quickstart
     with st.form('my_form'):  #[TODO] 포맷이 구리다. 교체하기
         input_text = st.text_area('Enter text: ')
         submitted = st.form_submit_button('Submit')
