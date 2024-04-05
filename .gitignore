@@ -39,3 +39,4 @@ node_modules
 104_LLM/samsum/
 104_OpenAI/text/openai.com
 frontend
+*.pdf
